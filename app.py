@@ -24,4 +24,5 @@ productsDictSorted = dict(sorted(productsDict.items(), key = lambda x : int(x[1]
 def products():
   return render_template("index.html", productsDictSorted = productsDictSorted)
 
-
+if __name__ == "__main__":
+    app.run()
