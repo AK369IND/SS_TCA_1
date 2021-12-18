@@ -1,8 +1,6 @@
 import requests
 import json
 from flask import Flask, render_template
-from flask_session import Session
-from tempfile import mkdtemp
 
 # Configure flask application
 app = Flask(__name__)
